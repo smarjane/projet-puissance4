@@ -35,3 +35,6 @@ func main() {
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 	http.ListenAndServe(":8080", nil)
 }
+func test() {
+
+}
